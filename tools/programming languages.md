@@ -462,19 +462,6 @@ clang++ tool.cpp -o tool
 
 ---
 
-### 13.6 Struktur Repo GitHub (Termux Friendly)
-
-```
-Linux-Tools/
-├── cpp/
-│   └── tool.cpp
-├── bash/
-│   └── tool.sh
-├── python/
-│   └── tool.py
-├── Makefile
-└── README.md
-```
 
 ---
 
