@@ -1,5 +1,3 @@
-# Materi Lengkap
-
 ## Bahasa Pemrograman untuk Membuat Tools Linux + Compiler
 
 Dokumen ini berisi **bahasa pemrograman yang umum digunakan untuk membuat tools Linux**, lengkap dengan **fungsi, kelebihan, dan cara compile / menjalankannya**. Cocok untuk **belajar, menentukan stack, dan dokumentasi GitHub**.
@@ -338,41 +336,21 @@ Jalankan:
 ```bash
 python3 tool.py
 ```
-
 ---
 
-## 12. Struktur Repo GitHub (Contoh)
-
-```
-Linux-Tools/
-├── bash/
-│   └── tool.sh
-├── cpp/
-│   └── tool.cpp
-├── python/
-│   └── tool.py
-├── go/
-├── rust/
-└── README.md
-```
-
----
-
----
-
-## 13. Penggunaan di Termux (Android)
+## 12. Penggunaan di Termux (Android)
 
 Bagian ini khusus untuk **user Termux (Android)** agar bisa membuat **Linux Tools langsung dari HP** menggunakan workflow yang sama seperti Linux desktop.
 
 ---
 
-### 13.1 Install Termux (WAJIB BENAR)
+### 12.1 Install Termux (WAJIB BENAR)
 
 📌 **Gunakan Termux dari F-Droid (bukan Play Store)** karena versi Play Store sudah usang.
 
 ---
 
-### 13.2 Update & Install Package Dasar
+### 12.2 Update & Install Package Dasar
 
 ```bash
 pkg update && pkg upgrade
@@ -389,7 +367,7 @@ pkg install nano clang make git python
 
 ---
 
-### 13.3 Membuat File dengan Nano (Termux)
+### 12.3 Membuat File dengan Nano (Termux)
 
 Contoh C++:
 
@@ -417,7 +395,7 @@ Shortcut nano (sama seperti Linux):
 
 ---
 
-### 13.4 Compile & Jalankan Tools di Termux
+### 12.4 Compile & Jalankan Tools di Termux
 
 #### C++ (clang++)
 
@@ -441,7 +419,7 @@ python tool.py
 
 ---
 
-### 13.5 Contoh Mini Linux Tool di Termux (C++)
+### 12.5 Contoh Mini Linux Tool di Termux (C++)
 
 ```cpp
 #include <iostream>
@@ -462,17 +440,3 @@ clang++ tool.cpp -o tool
 
 ---
 
-
----
-
-### 13.7 Tips Penting User Termux
-
-* Gunakan **keyboard tambahan Termux**
-* Biasakan coding full CLI
-* Jangan takut error (clang error sangat jelas)
-* Cocok untuk belajar **system & security tools**
-
----
-
-🔥 Dengan Termux, HP kamu sudah setara **Linux development environment**.
-🔥 Dengan **nano + clang + git**, kamu siap jadi **Linux Tools Developer**.
