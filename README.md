@@ -52,10 +52,3 @@
 
 ---
 
-## ✨ Tagline
-
-> *Linux & Termux — Build, Script, Automate*
-
----
-
-⭐ Focused on **Linux & Termux CLI Development**
